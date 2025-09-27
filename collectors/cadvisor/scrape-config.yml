@@ -1,0 +1,6 @@
+# You can copy this scrape config into your main Prometheus configuration file to enable scraping of Scaphandre metrics.
+
+scrape_configs:
+  - job_name: 'cadvisor'
+    static_configs:
+      - targets: ['cadvisor:8081']

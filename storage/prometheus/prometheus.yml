@@ -1,0 +1,8 @@
+# Prometheus configuration file
+# See https://prometheus.io/docs/prometheus/latest/configuration/configuration/
+# This configuration can be extended by adding more scrape_configs to the file based on the collectors used.
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['prometheus:9090']

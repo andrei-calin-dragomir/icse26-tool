@@ -1,0 +1,26 @@
+# collectors/scaphandre.yml
+services:
+  scaphandre:
+    image: hubblo/scaphandre
+    container_name: scaphandre
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "18080:8080"
+    networks:
+      - default
+    command:
+      - "-s"
+      - "powercap_rapl"
+      - "prometheus"
+    volumes:
+      - type: bind
+        source: /proc
+        target: /proc
+        bind:
+          propagation: rshared
+      - type: bind
+        source: /sys/class/powercap
+        target: /sys/class/powercap
+        bind:
+          propagation: rshared
