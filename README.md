@@ -1,7 +1,13 @@
 # icse26-tool
 Toolkit for deploying a dashboard stack, from metric collection to visualization using Docker.
 
-## Deployment
+Within this project you will find directories that contain building blocks for deploying various services that can be used for collecting, storing, and visualizing metrics. Each service has its own directory containing the necessary configuration files and deployment files.
+
+The blueprint below illustrates the general architecture of the stack, from metrics collection to visualization:
+
+![Blueprint of the stack](./architectural_blueprint.png)
+
+## General Deployment Process
 
 In order to deploy the selection of services, each service has its own deployment file which contains the necessary configuration, such as environment variables, volumes, and network settings.
 
