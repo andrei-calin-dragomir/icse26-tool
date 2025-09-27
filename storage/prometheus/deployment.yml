@@ -4,7 +4,7 @@ services:
     image: prom/prometheus:v2.54.1
     container_name: prometheus
     restart: unless-stopped
-    expose:
+    ports:
       - "19090:9090"
     networks: 
       - default
