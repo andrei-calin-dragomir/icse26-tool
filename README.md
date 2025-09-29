@@ -1,4 +1,4 @@
-# icse26-tool
+# Software Monitoring
 Toolkit for deploying a dashboard stack, from metric collection to visualization using Docker.
 
 Within this project you will find directories that contain building blocks for deploying various services that can be used for collecting, storing, and visualizing metrics. Each service has its own directory containing the necessary configuration files and deployment files.
