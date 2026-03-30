@@ -7,6 +7,8 @@ The blueprint below illustrates the general architecture of the stack, from metr
 
 ![Blueprint of the stack](./architectural_blueprint.png)
 
+**You can find our demo presentation here:** (https://www.youtube.com/watch?v=EVmSxVl9HW4)
+
 ## General Deployment Process
 
 In order to deploy the selection of services, each service has its own deployment file which contains the necessary configuration, such as environment variables, volumes, and network settings.
