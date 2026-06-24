@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper as below."
+authors:
+  - family-names: "Toczé"
+    given-names: "Klervie"
+  - family-names: "Dragomir"
+    given-names: "Andrei"
+  - family-names: "Stoico"
+    given-names: "Vincenzo"
+  - family-names: "Lago"
+    given-names: "Patricia"
+title: "Toward an Architectural Blueprint to Observe Sustainability in and by Software Systems"
+url: "https://arxiv.org/abs/2604.09278"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Toczé"
+      given-names: "Klervie"
+    - family-names: "Dragomir"
+      given-names: "Andrei"
+    - family-names: "Stoico"
+      given-names: "Vincenzo"
+    - family-names: "Lago"
+      given-names: "Patricia"
+  title: "Toward an Architectural Blueprint to Observe Sustainability in and by Software Systems"
+  year: 2026
+  eprint: "2604.09278"
+  url: "https://arxiv.org/abs/2604.09278"
