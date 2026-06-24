@@ -7,7 +7,7 @@ The blueprint below illustrates the general architecture of the stack, from metr
 
 ![Blueprint of the stack](./architectural_blueprint.png)
 
-**You can find our demo presentation here:** (https://www.youtube.com/watch?v=EVmSxVl9HW4)
+**You can find our demo presentation here:** (https://youtu.be/IxCWB_zHuxs)
 
 ## General Deployment Process
 
@@ -51,3 +51,18 @@ To do so, create a new file named `deployment.yml` and copy the contents of each
 **Note:** When merging the deployment files, ensure that there exists only one `services:` and one `volumes:` section in the final `deployment.yml` file. You may need to adjust the indentation accordingly. You can see how such a merger would look in the provided `deployment.yml` file in the `examples/scaphandre-prometheus-grafana` directory.
 
 *Some services may require additional configuration steps, such as adding scrape targets to Prometheus or provisioning data sources in Grafana. Refer to the documentation of each service for more details on these steps.
+
+## Citation
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@misc{toczé2026architecturalblueprintobservesustainability,
+      title={Toward an Architectural Blueprint to Observe Sustainability in and by Software Systems}, 
+      author={Klervie Toczé and Andrei Dragomir and Vincenzo Stoico and Patricia Lago},
+      year={2026},
+      eprint={2604.09278},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2604.09278}, 
+}
+```
